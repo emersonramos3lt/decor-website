@@ -1,0 +1,37 @@
+body.darkmode {
+    background-color: #111;
+    color: #fff;
+}
+
+.darkmode header {
+    border-bottom: 1px solid #fff;
+}
+
+.darkmode #theme-switch {
+    background-color: transparent;
+    color: #fff;
+}
+
+.darkmode nav #mainMenu li a {
+    color: #fff;
+}
+
+.darkmode .logo {
+    color: #fff;
+}
+
+.darkmode #theme-switch p:first-child {
+    display: block;
+}
+
+.darkmode #theme-switch p:last-child {
+    display: none;
+}
+
+.darkmode #openMenu, .darkmode #closeMenu {
+    color: #fff;
+}
+
+.darkmode nav #mainMenu {
+    background-color: #111;
+}
