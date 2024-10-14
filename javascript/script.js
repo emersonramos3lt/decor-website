@@ -1,0 +1,51 @@
+// THEME LIGHT/DARK
+let darkmode = localStorage.getItem('darkmode');
+const themeSwitch = document.getElementById('theme-switch');
+
+const enableDarkmode = () => {
+    document.body.classList.add('darkmode');
+    localStorage.setItem('darkmode', 'active');
+}
+
+const disableDarkmode = () => {
+    document.body.classList.remove('darkmode');
+    localStorage.setItem('darkmode', null);
+}
+
+if (darkmode === "active") enableDarkmode();
+
+themeSwitch.addEventListener("click", () => {
+    darkmode = localStorage.getItem('darkmode');
+    darkmode !== "active" ? enableDarkmode() : disableDarkmode();
+});
+
+// MENU
+const mainMenu = document.getElementById("mainMenu");
+const openMenu = document.getElementById("openMenu");
+const closeMenu = document.getElementById("closeMenu");
+const items = document.querySelectorAll("nav .mainMenu li a");
+const header = document.querySelector("header");
+const logo = document.getElementById("logo");
+const marquee = document.getElementById("marquee");
+
+openMenu.addEventListener("click", show);
+closeMenu.addEventListener("click", close);
+
+items.forEach(item => {
+    item.addEventListener("click", function() {
+        close();
+    });
+});
+
+function show() {
+    mainMenu.style.display = "flex";
+    mainMenu.style.top = "0";
+    document.body.style.overflow = "hidden";
+    marquee.style.opacity = "0"
+}
+
+function close() {
+    mainMenu.style.top = "-110%";
+    document.body.style.overflow = "auto";
+    marquee.style.opacity = "1";
+}
