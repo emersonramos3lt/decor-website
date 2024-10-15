@@ -1,0 +1,104 @@
+body.darkmode {
+    background-color: #111;
+    color: #fff;
+}
+
+.darkmode .loader-background {
+    background-color: #111;
+}
+
+.darkmode .loader {
+    border: 5px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+}
+
+.darkmode #theme-switch {
+    background-color: transparent;
+    color: #fff;
+}
+
+.darkmode nav #mainMenu li a {
+    color: #fff;
+}
+
+.darkmode .logo {
+    color: #fff;
+}
+
+.darkmode #theme-switch p:first-child {
+    display: block;
+}
+
+.darkmode #theme-switch p:last-child {
+    display: none;
+}
+
+.darkmode #openMenu, .darkmode #closeMenu {
+    color: #fff;
+}
+
+.darkmode nav #mainMenu {
+    background-color: #111;
+}
+
+.darkmode nav a::before {
+    background-color: #fff;
+}
+
+.darkmode .nav-icon i {
+    color: #fff;
+}
+
+.darkmode .marquee li {
+    color: #fff;
+}
+
+.darkmode .marquee {
+    background-color: #2a2a2a;
+}
+
+.darkmode .text {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.darkmode .text p {
+    color: #fff;
+}
+
+.darkmode .text .read-more {
+    color: gray;
+}
+
+.darkmode .button {
+    background-color: #000;
+}
+
+.darkmode .button:hover {
+    background-color: #303E40;
+}
+
+.darkmode .see-button {
+    color: gray;
+}
+
+.darkmode .see-button:hover {
+    background-color: #303E40;
+    color: #fff;
+}
+
+@media(max-width: 1050px) {
+    .darkmode .grid-container p {
+        color: #fff;
+    }
+
+    .darkmode .item-text h1 {
+        color: #fff;
+    }
+
+    .darkmode .item-text a {
+        background-color: #fff;
+        border: none;
+    }
+}

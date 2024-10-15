@@ -1,0 +1,201 @@
+@media(max-width: 1300px) {
+    /* MAIN */
+    main {
+        max-width: 800px;
+        padding-top: 2rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+
+@media(max-width: 1000px) {
+    header {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }   
+
+    .logo {
+        font-size: 1.2rem;
+        order: 0;
+        margin-right: 1rem;
+        order: 2;
+    }
+
+    nav {
+        margin-left: 1rem;
+        order: 1;
+    }
+
+    nav #mainMenu {
+        height: 100%;
+        width: 35vh;
+        position: fixed;
+        display: none;
+        justify-content: start;
+        align-items: start;
+        flex-flow: column wrap;
+        background-color: #fff;
+        inset: 0;
+        transition: top 1s ease 0s;
+        z-index: 100;
+        border-right: 1px solid gray;
+    }
+
+    nav #mainMenu, .container-links-1, .container-links-2 {
+        flex-flow: column wrap;
+    }
+
+    .container-links-2 {
+        margin-left: 0;
+    }
+    
+    .container-links-1 {
+        border-right: none;
+        border-bottom: 1px solid gray;
+        margin-bottom: 1.4rem;
+        margin-top: 5rem;
+    }
+
+    nav #mainMenu #closeMenu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+
+    nav #openMenu {
+        display: block;
+    }
+
+    nav #mainMenu li {
+        margin-bottom: 2rem;
+    }
+
+    nav #mainMenu li a {
+        font-size: 1.2rem;
+    }
+
+    #theme-switch p {
+        font-size: 1.8rem;
+    }
+
+    .nav-icon i {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    /* MAIN */
+    main {
+        max-width: 320px;
+        padding-top: 2rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .text {
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+    }
+
+    .text h1 {
+        font-weight: 400;
+        font-size: 2.9rem;
+    }
+
+    /* SECTION PRODUCTS */
+    .products {
+        margin-top: 8rem;
+    }
+
+    .title-container {
+        margin-bottom: 2rem;
+    }
+
+    .title-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .title-container .see-button {
+        padding: .7rem;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 320px;
+    }
+
+    .item {
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .grid-container p {
+        position: relative;
+        color: #111;
+            margin-bottom: 5rem;
+    }
+
+    /* SECTION ABOUT */
+    .about {
+        margin-top: 2rem;
+    }
+
+    .about img {
+        max-width: 350px;
+    }
+
+    .about p {
+        font-size: 1.7rem;
+        line-height: 45px;
+    }
+
+    /* SHOP NOW SECTION */
+    .shop-now {
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: 2rem;
+    } 
+
+    .item-text {
+        position: relative;
+        margin-bottom: 5rem;
+    }
+
+    .item-text h1 {
+        font-size: 1.9rem;
+        color: #111;
+        margin-bottom: 3rem;
+    }
+
+    .item-text a {
+        border: 1px solid #111;
+        color: #111;
+    }
+
+    .item-text a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 4rem;
+    }
+
+    .footer-text {
+       flex-flow: column wrap;
+    }
+
+    .footer-text div i {
+        margin-top: 2rem;
+        font-size: 1.7rem;
+    }
+}
