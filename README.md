@@ -6,6 +6,7 @@ looks great on all devices, from desktops to mobile screens, providing users wit
 
 # Main Features 
 - Dark/Light mode
+- Marquee
 - Grid and flex layout
 - Responsive design
 - Transitions
