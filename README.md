@@ -1,18 +1,28 @@
-# Description
+# 🏡 Minimalist Interior Design Website  
 
-This project is a responsive and minimalist website for a fictional interior design company. The design features a clean and modern aesthetic, utilizing a grid layout to organize content efficiently and enhance visual appeal. 
-The site includes a smooth loading screen that sets the tone for a polished user experience. Subtle hover transitions add interactivity, making navigation fluid and engaging. The responsive design ensures that the website 
-looks great on all devices, from desktops to mobile screens, providing users with a consistent and seamless browsing experience.
+This project is a **fully responsive** and **minimalist website** for a fictional interior design company, designed to reflect a **clean and modern aesthetic**. The layout leverages **grid** and **flexbox** techniques to organize content effectively, enhancing both visual appeal and usability.  
 
-# Main Features 
-- Dark/Light mode
-- Marquee
-- Grid and flex layout
-- Responsive design
-- Transitions
-- Loading animation
+The site features:  
+- A **smooth loading screen** to create a polished first impression.  
+- Subtle **hover transitions** for interactivity and fluid navigation.  
+- A **marquee element** to introduce dynamic movement, elevating user engagement.  
+- A **dark/light mode toggle**, allowing users to customize their viewing experience.  
 
-# Screenshot
+The **responsive design** ensures a consistent and seamless experience across all devices, from desktops to mobile screens.  
+
+---
+
+## 🛠️ Main Features  
+- **Dark/Light mode toggle** for user customization  
+- **Marquee** for dynamic content flow  
+- **Grid and flex layouts** for an organized and visually appealing structure  
+- **Responsive design** for seamless usability across all devices  
+- **Smooth transitions** for interactive navigation  
+- **Loading animation** for a polished user experience  
+
+---
+
+## 📷 Screenshots  
 ## Light Mode
 
 ![Screenshot](./screenshot/img1.PNG)
